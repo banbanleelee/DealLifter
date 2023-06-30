@@ -9,7 +9,12 @@
 - [License](#license)
 
 ## General
-Website is deployed on https://rocky-dusk-57645.herokuapp.com/
+Website is deployed on [Heroku](https://deal-lifter-8376b4c00715.herokuapp.com/) with these working features:
+- log-ins, sign-ups, and user dasboards
+- post a deal
+- browse deals
+- like a deal
+Other features are available on local because I am still working on them.
 
 A user can create a profile on our site and begin contributing new deals and use the extra features.
 
