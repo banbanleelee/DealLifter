@@ -89,13 +89,13 @@ const Deal = ({ deal }) => {
                         {deal.title}
                     </a>
                     <br></br>
-                    <a 
+                    {/* <a 
                         className = "deal_Merchant is-size-5"
                         // href = {deal.merchant.homepage}
                         target = '_blank'
                     >
                         {deal.merchant.name}
-                    </a>
+                    </a> */}
                     <div className = "deal_Description">{deal.description}</div>
                     <br></br>
                     <div className = "deal_StartingPrice">Original Price: ${deal.startingPrice}</div>
@@ -103,7 +103,7 @@ const Deal = ({ deal }) => {
                     <br></br>
                 </div>
 
-                <div className = "deal_UserInfo card-content column is-2" style={vcenter}>
+                {/* <div className = "deal_UserInfo card-content column is-2" style={vcenter}>
                     <div style={vcenterChild}>
                         <div className = 'deal_UserUsername'>Posted by: 
                             <Link to = {`/profile/${deal.submittedBy.userName}`}>
@@ -118,7 +118,7 @@ const Deal = ({ deal }) => {
                         </div>
                     </div>
                     
-                </div>
+                </div> */}
                 
                 <div className='column is-1 is-flex is-vcentered'>
                     <div className = "deal_UserInteractionContainter columns is-flex is-vcentered">
