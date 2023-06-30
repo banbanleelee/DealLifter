@@ -77,7 +77,7 @@ const DealSmall = ({ deal }) => {
                 <br></br>
                 <a 
                     className = "is-size-5 dealSmall_Merchant"
-                    href = {deal.merchant.homepage}
+                    // href = {deal.merchant.homepage}
                     target = '_blank'
                 >
                     {deal.merchant.name}

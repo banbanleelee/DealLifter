@@ -91,7 +91,7 @@ const Deal = ({ deal }) => {
                     <br></br>
                     <a 
                         className = "deal_Merchant is-size-5"
-                        href = {deal.merchant.homepage}
+                        // href = {deal.merchant.homepage}
                         target = '_blank'
                     >
                         {deal.merchant.name}
