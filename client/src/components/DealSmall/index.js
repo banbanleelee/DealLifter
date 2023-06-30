@@ -80,7 +80,7 @@ const DealSmall = ({ deal }) => {
                     // href = {deal.merchant.homepage}
                     target = '_blank'
                 >
-                    {deal.merchant.name}
+                    {deal.description}
                 </a>
             </div>
 
@@ -100,14 +100,14 @@ const DealSmall = ({ deal }) => {
                 <br></br>
             </div>
 
-            <div className = "dealSmall_UserInfo rowSmall">
+            {/* <div className = "dealSmall_UserInfo rowSmall">
                     <div className = 'dealSmall_UserUsername'>Posted by: 
                         <Link to = {`/profile/${deal.submittedBy.userName}`}>
                             {deal.submittedBy.userName}
                         </Link>
                     </div>
                 <div className = 'dealSmall_UserPostTime'>Posted: {Date(deal.submittedOn)}</div>
-            </div>
+            </div> */}
             
             <br></br>
 {auth.loggedIn()?(<div className = "dealSmall_UserInteractionContainter has-text-centered is-pulled-left">
